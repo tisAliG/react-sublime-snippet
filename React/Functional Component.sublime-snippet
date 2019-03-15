@@ -1,17 +1,11 @@
 <snippet>
     <content><![CDATA[
-import React, { PropTypes } from 'react';
+import React from 'react';
 
-const ${1:Component} = ({ className }) => {
+const ${1:Component} = ( props ) => {
     return (
         ${2}
     );
-};
-
-${1:Component}.displayName = '${1:Component}';
-
-${1:Component}.propTypes = {
-    className: PropTypes.string,
 };
 
 export default ${1:Component};
